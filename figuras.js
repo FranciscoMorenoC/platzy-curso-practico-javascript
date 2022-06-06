@@ -121,3 +121,35 @@ function calcularPerimetroCirculo(){
 
 //
 
+function AlturaTrianguloIsoseles (ladoA, ladoB, ladoBase){
+    if (ladoA != ladoB) {
+        console.error("Lado A y lado B tienen que ser iguales");
+    } else {
+        const ladoPequenoB = ladoBase / 2;
+        const ladoPequenoBase = ladoA;
+
+        const ladoPequenoBcuadrado = ladoPequenoB**2;
+        const ladoPequenoBasecuadrado = ladoPequenoBase**2;
+
+        const ladoPequenoA = 
+        Math.sqrt(ladoPequenoBasecuadrado - ladoPequenoBcuadrado);
+        
+        const ladoAltura = ladoPequenoA;
+        return (ladoAltura);
+    }
+}
+
+// function calcularAlturaTrianguloIsoseles(){
+//     const input1 = document.getElementById("InputTrianguloA");
+//     const value1 = Number(input1.value);
+    
+//     const input2 = document.getElementById
+//     ("InputTrianguloB");
+//     const value2 = Number(input2.value);
+    
+//     const base = document.getElementById("InputBase");
+//     const value3 = Number(base.value);
+    
+    
+//     alert("La altura del triangulo es: " + AlturaTrianguloIsoseles);
+// }
