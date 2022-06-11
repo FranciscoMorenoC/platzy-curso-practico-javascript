@@ -24,3 +24,4 @@ Primeras practicas de javascript
 - tercer paso: crear funciones
 - cuarto paso: integrar javascript con HTML 
 
+## TALLER 4: Promedio suedo mexico
